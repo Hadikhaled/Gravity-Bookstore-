@@ -32,6 +32,49 @@ A galaxy schema allows for a higher level of normalization And Manage Relationsh
 ![Glaxay Schema ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/Galaxy%20Schema%20.PNG?raw=true)
 
 
+## ETL using SSIS
+SQL Server Integration Services (SSIS) was utilized for Extract, Transform, Load (ETL) processes to populate the warehouse with data. This approach ensured systematic collection and organization of information regarding books, customers, and sales within the data warehouse.
+
+ ### Table Facts
+   ![Accumualitive Order ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/ACCUMULATIVE%20FACT.PNG?raw=true)
+
+   ![ Fact Sales ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/FACT_SALES.PNG?raw=true)
+
+ ### Table Dimantions 
+   ![Book_Dim](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/DIM_BOOK.PNG?raw=true)
+   
+   ![Adress_Dim ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/DIM_ADDRESS.PNG?raw=true)
+   
+   ![Shipping_Dim ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/DIM_SHIPPING.PNG?raw=true)
+   
+   ![Customer_Dim ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/DIM_CUSTOMER.PNG?raw=true)
+   
+   ![Book_Author_Dim ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/BOOK_AUTHOR.PNG?raw=true)
+
+
+
+## SSAS
+Within the data cubes, perspectives, calculations, and Key Performance Indicators (KPIs) were integrated to enrich the analytical capabilities. Perspectives were employed to offer different viewpoints on the data, facilitating varied analyses tailored to specific business requirements. Calculations were implemented to derive new measures or modify existing ones, enabling deeper insights into the dataset. Additionally, Key Performance Indicators (KPIs) were defined to gauge the performance of the business against predefined targets, providing actionable insights for strategic decision-making.
+
+  ![Cube for fact sales  ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/cube2.PNG?raw=true)
+
+  ![Cube for accumualitive  order  ](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/cube1.PNG?raw=true)
+
+
+
+
+  ## Dashboard with Power BI
+
+ 
+
+  ![Summary](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/page1.PNG?raw=true)
+  
+  ![Book](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/Page2.PNG?raw=true)
+  
+  ![Customer](https://github.com/Hadikhaled/Gravity-Bookstore-/blob/main/Snapshots/Page3.PNG?raw=true)
+  
+
+
 
 
 
