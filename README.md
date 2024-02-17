@@ -28,6 +28,7 @@ The project commenced with the construction of a data warehouse using SQL Server
 ## Building Data Warehouse
 The database has a complex structure with many related tables, including many-to-many relationships,
 A galaxy schema allows for a higher level of normalization And Manage Relationships between 2 Fact table , which can help in reducing data redundancy and ensuring data consistency.
+[Glaxay Schema ](Snapshots/Galaxy Schema .PNG)
 
 
 
